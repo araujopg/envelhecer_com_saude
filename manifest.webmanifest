@@ -1,0 +1,12 @@
+{
+  "name":"Envelhecer com Saúde — Cartilha Digital",
+  "short_name":"Envelhecer com Saúde",
+  "description":"Cartilha digital educativa em página única para tablets e celulares.",
+  "lang":"pt-BR",
+  "start_url":"./index.html",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#faf8f2",
+  "theme_color":"#285845",
+  "icons":[{"src":"assets/img/favicon.svg","type":"image/svg+xml","sizes":"any","purpose":"any"}]
+}

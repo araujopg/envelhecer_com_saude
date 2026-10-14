@@ -1,0 +1,432 @@
+[
+  {
+    "id": "cafe-pao",
+    "group": "manha",
+    "title": "Pão francês, manteiga ou margarina e café",
+    "subtitle": "Um café da manhã comum na mesa brasileira.",
+    "img": 1,
+    "ingredients": [
+      [
+        "pao",
+        50,
+        "1 pão francês (50 g)"
+      ],
+      [
+        "manteiga",
+        5,
+        "1 colher de chá rasa de manteiga (5 g)"
+      ],
+      [
+        "cafe",
+        150,
+        "1 xícara de café sem açúcar (150 mL)"
+      ]
+    ],
+    "tip": "Se possível, alterne com opções que incluam ovo, leite ou fruta. Usar margarina no lugar da manteiga modifica o valor nutricional.",
+    "tag": "Tradicional",
+    "nutrition": [
+      188,
+      4.5,
+      29.6,
+      5.5,
+      1.1
+    ]
+  },
+  {
+    "id": "cafe-ovo",
+    "group": "manha",
+    "title": "Pão com ovo, banana e café com leite",
+    "subtitle": "Energia, proteína e fruta no mesmo café da manhã.",
+    "img": 2,
+    "ingredients": [
+      [
+        "pao",
+        50,
+        "1 pão francês (50 g)"
+      ],
+      [
+        "ovo",
+        50,
+        "1 ovo (50 g)"
+      ],
+      [
+        "banana",
+        80,
+        "1 banana pequena (80 g)"
+      ],
+      [
+        "leite",
+        150,
+        "150 mL de leite no café"
+      ],
+      [
+        "oleo",
+        3,
+        "um pouco de óleo no preparo (3 g)"
+      ]
+    ],
+    "tip": "O ovo contribui com proteína. A fruta pode variar conforme a estação.",
+    "tag": "Com proteína",
+    "nutrition": [
+      413,
+      16.7,
+      55.4,
+      14.8,
+      2.8
+    ]
+  },
+  {
+    "id": "cafe-mingau",
+    "group": "manha",
+    "title": "Mingau de aveia com leite e banana",
+    "subtitle": "Preparação macia e fácil de adaptar.",
+    "img": 3,
+    "ingredients": [
+      [
+        "aveia",
+        40,
+        "4 colheres de sopa de aveia (40 g)"
+      ],
+      [
+        "leite",
+        200,
+        "1 copo de leite (200 mL)"
+      ],
+      [
+        "banana",
+        90,
+        "1 banana média (90 g)"
+      ]
+    ],
+    "tip": "A consistência pode ser ajustada com o leite. Não é necessário adoçar se a banana já der sabor.",
+    "tag": "Macio",
+    "nutrition": [
+      360,
+      13.0,
+      56.9,
+      10.5,
+      5.4
+    ]
+  },
+  {
+    "id": "cafe-cuscuz",
+    "group": "manha",
+    "title": "Cuscuz de milho no vapor com ovo",
+    "subtitle": "Opção simples, familiar e versátil.",
+    "img": 4,
+    "ingredients": [
+      [
+        "flocao",
+        50,
+        "flocão de milho seco (50 g), hidratado e cozido"
+      ],
+      [
+        "ovo",
+        50,
+        "1 ovo (50 g)"
+      ],
+      [
+        "oleo",
+        3,
+        "um pouco de óleo no preparo (3 g)"
+      ],
+      [
+        "cafe",
+        150,
+        "1 xícara de café sem açúcar (150 mL)"
+      ]
+    ],
+    "tip": "O cuscuz é preparado no vapor. O ovo pode ser cozido ou mexido.",
+    "tag": "Milho",
+    "nutrition": [
+      278,
+      10.2,
+      39.9,
+      8.8,
+      1.9
+    ]
+  },
+  {
+    "id": "almo-ovo",
+    "group": "principal",
+    "title": "Arroz, feijão, ovo e salada",
+    "subtitle": "Uma combinação nutritiva com ingredientes econômicos.",
+    "img": 5,
+    "ingredients": [
+      [
+        "arroz",
+        100,
+        "4 colheres de sopa de arroz branco cozido (100 g)"
+      ],
+      [
+        "feijao",
+        100,
+        "1 concha pequena de feijão carioca cozido (100 g)"
+      ],
+      [
+        "ovo",
+        100,
+        "2 ovos (100 g)"
+      ],
+      [
+        "alface",
+        40,
+        "alface (40 g)"
+      ],
+      [
+        "tomate",
+        80,
+        "tomate (80 g)"
+      ],
+      [
+        "oleo",
+        5,
+        "óleo/tempero (5 g)"
+      ]
+    ],
+    "tip": "Troque alface e tomate por repolho com cenoura ou por legumes cozidos.",
+    "tag": "Econômica",
+    "nutrition": [
+      415,
+      21.6,
+      46.6,
+      15.9,
+      11.2
+    ]
+  },
+  {
+    "id": "almo-frango",
+    "group": "principal",
+    "title": "Arroz, feijão, frango e salada",
+    "subtitle": "Uma opção prática para variar a fonte de proteína.",
+    "img": 6,
+    "ingredients": [
+      [
+        "arroz",
+        100,
+        "arroz branco cozido (100 g)"
+      ],
+      [
+        "feijao",
+        100,
+        "feijão carioca cozido (100 g)"
+      ],
+      [
+        "frango",
+        100,
+        "frango cozido/grelhado sem pele (100 g)"
+      ],
+      [
+        "repolho",
+        70,
+        "repolho (70 g)"
+      ],
+      [
+        "cenoura",
+        60,
+        "cenoura (60 g)"
+      ],
+      [
+        "oleo",
+        5,
+        "óleo/tempero (5 g)"
+      ]
+    ],
+    "tip": "Repolho e cenoura podem ser crus ou levemente cozidos, de acordo com a preferência.",
+    "tag": "Com frango",
+    "nutrition": [
+      450,
+      39.7,
+      50.0,
+      9.5,
+      12.9
+    ]
+  },
+  {
+    "id": "almo-bife",
+    "group": "principal",
+    "title": "Arroz, feijão, bife e legumes",
+    "subtitle": "Outro prato tradicional, com variedade de vegetais.",
+    "img": 7,
+    "ingredients": [
+      [
+        "arroz",
+        100,
+        "arroz branco cozido (100 g)"
+      ],
+      [
+        "feijao",
+        100,
+        "feijão carioca cozido (100 g)"
+      ],
+      [
+        "bife",
+        100,
+        "bife bovino preparado (100 g)"
+      ],
+      [
+        "chuchu",
+        80,
+        "chuchu cozido (80 g)"
+      ],
+      [
+        "cenoura",
+        80,
+        "cenoura cozida (80 g)"
+      ],
+      [
+        "oleo",
+        5,
+        "óleo/tempero (5 g)"
+      ]
+    ],
+    "tip": "O bife pode ser alternado com frango ou ovo conforme o orçamento e a preferência.",
+    "tag": "Tradicional",
+    "nutrition": [
+      508,
+      36.6,
+      51.0,
+      17.9,
+      13.0
+    ]
+  },
+  {
+    "id": "janta-canja",
+    "group": "jantar",
+    "title": "Canja de frango com legumes",
+    "subtitle": "Um jantar macio que também oferece proteína.",
+    "img": 8,
+    "ingredients": [
+      [
+        "frango",
+        80,
+        "frango desfiado (80 g)"
+      ],
+      [
+        "arroz",
+        80,
+        "arroz já cozido (80 g)"
+      ],
+      [
+        "cenoura",
+        80,
+        "cenoura (80 g)"
+      ],
+      [
+        "chuchu",
+        80,
+        "chuchu (80 g)"
+      ],
+      [
+        "cebola",
+        30,
+        "cebola (30 g)"
+      ],
+      [
+        "oleo",
+        5,
+        "óleo no preparo (5 g)"
+      ]
+    ],
+    "tip": "Para não virar apenas um caldo ralo, mantenha quantidade suficiente de frango e arroz.",
+    "tag": "Jantar leve",
+    "nutrition": [
+      331,
+      28.4,
+      34.5,
+      8.3,
+      5.2
+    ]
+  },
+  {
+    "id": "janta-omelete",
+    "group": "jantar",
+    "title": "Omelete com legumes, arroz e feijão",
+    "subtitle": "Uma maneira rápida de montar um jantar completo.",
+    "img": 9,
+    "ingredients": [
+      [
+        "ovo",
+        100,
+        "2 ovos (100 g)"
+      ],
+      [
+        "arroz",
+        80,
+        "arroz branco cozido (80 g)"
+      ],
+      [
+        "feijao",
+        80,
+        "feijão carioca cozido (80 g)"
+      ],
+      [
+        "tomate",
+        80,
+        "tomate (80 g)"
+      ],
+      [
+        "couve",
+        50,
+        "couve (50 g)"
+      ],
+      [
+        "oleo",
+        5,
+        "óleo no preparo (5 g)"
+      ]
+    ],
+    "tip": "Use os legumes disponíveis em casa. O acompanhamento pode variar.",
+    "tag": "Prática",
+    "nutrition": [
+      383,
+      21.0,
+      39.2,
+      16.0,
+      10.2
+    ]
+  },
+  {
+    "id": "janta-abobora",
+    "group": "jantar",
+    "title": "Sopa de abóbora com frango",
+    "subtitle": "Preparação de textura macia e sabor caseiro.",
+    "img": 10,
+    "ingredients": [
+      [
+        "abobora",
+        220,
+        "abóbora (220 g)"
+      ],
+      [
+        "frango",
+        90,
+        "frango desfiado (90 g)"
+      ],
+      [
+        "batata",
+        80,
+        "batata cozida (80 g)"
+      ],
+      [
+        "cebola",
+        30,
+        "cebola (30 g)"
+      ],
+      [
+        "oleo",
+        5,
+        "óleo no preparo (5 g)"
+      ]
+    ],
+    "tip": "A presença do frango e da batata ajuda a tornar a sopa uma refeição mais completa.",
+    "tag": "Jantar leve",
+    "nutrition": [
+      381,
+      31.9,
+      42.6,
+      9.4,
+      5.2
+    ]
+  }
+]

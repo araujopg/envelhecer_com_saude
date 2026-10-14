@@ -1,0 +1,19 @@
+{
+  "situacao": "aguardando_lista_oficial",
+  "nome_ubs": null,
+  "endereco": null,
+  "telefone": null,
+  "horarios": null,
+  "servicos_sugeridos_nao_confirmados": [
+    "Consultas médicas e de enfermagem",
+    "Vacinação",
+    "Acompanhamento de doenças crônicas",
+    "Farmácia e medicamentos",
+    "Saúde bucal",
+    "Testes rápidos / coleta de exames",
+    "Curativos e procedimentos",
+    "Saúde da mulher",
+    "Visitas domiciliares",
+    "Grupos e educação em saúde"
+  ]
+}
