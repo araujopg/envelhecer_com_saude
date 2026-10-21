@@ -1,0 +1,61 @@
+{
+  "atualizacao": "2026-10-20",
+  "origem": "Informações confirmadas pelo projeto para a UBS; alterações devem ser verificadas com a unidade.",
+  "nome": "UBS Vila Elvira",
+  "endereco": "Avenida Major Leo Lerro, 558 - Vila Elvira",
+  "telefone": "(17) 3224-3695",
+  "horario_funcionamento": {
+    "dias": "Segunda a sexta-feira",
+    "inicio": "07:00",
+    "fim": "17:00"
+  },
+  "sala_vacinacao": {
+    "dias": "Segunda a sexta-feira",
+    "inicio": "07:30",
+    "fim": "16:30"
+  },
+  "grupos": [
+    {
+      "nome": "Grupo com a fisioterapeuta",
+      "dia": "Terça-feira",
+      "horarios": [
+        "07:30",
+        "08:30",
+        "09:15",
+        "10:00"
+      ],
+      "local": "UBS Vila Elvira",
+      "encaminhamento_medico": true,
+      "triagem": {
+        "dia": "Terça-feira",
+        "a_partir_de": "11:00",
+        "local": "UBS Vila Elvira"
+      },
+      "observacao": "Participação depende de encaminhamento médico e triagem profissional; adequação dos exercícios é individual."
+    },
+    {
+      "nome": "Grupo com a educadora física",
+      "dia": "Quinta-feira",
+      "locais_horarios": [
+        {
+          "local": "Praça; confirmar endereço na UBS",
+          "horarios": [
+            "07:30",
+            "08:15"
+          ]
+        },
+        {
+          "local": "UBS Vila Elvira",
+          "horarios": [
+            "09:30"
+          ]
+        }
+      ],
+      "encaminhamento_medico": false,
+      "triagem_previa": false,
+      "observacao": "Grupo aberto; confirmar com a UBS horário, endereço da praça e disponibilidade antes de comparecer."
+    }
+  ],
+  "aviso": "Para ambos os grupos, informar interesse na UBS antes de participar. Horários, locais e vagas podem mudar.",
+  "demais_servicos": "Não confirmados; consulte a unidade."
+}

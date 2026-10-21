@@ -142,3 +142,92 @@ body.presentation-mode .activity-grid{grid-template-columns:repeat(2,minmax(0,1f
  .site-header .present-toggle{width:43px;min-width:43px;padding:0}
  .topbar-unico{gap:7px}
 }
+
+
+/* UBS Vila Elvira — contato, vacinação e grupos comunitários (2026-10-20). */
+.chapter-ubs .page-hero-grid{grid-template-columns:1fr!important}
+.chapter-ubs .page-hero-art{display:none}
+.ubs-info-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:22px;align-items:stretch}
+.ubs-info-card,.ubs-vaccine-card{border-radius:26px;padding:32px;border:1px solid var(--line)}
+.ubs-info-card{background:#fff;box-shadow:0 8px 22px rgba(31,60,41,.04)}
+.ubs-info-heading{display:flex;align-items:center;gap:15px;margin-bottom:19px}
+.ubs-symbol{display:grid;place-items:center;width:61px;height:61px;border-radius:16px;background:#e8f1e8;font-size:2rem}
+.ubs-card-label{color:#53735b;display:block;font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em}
+.ubs-info-heading h3{margin:3px 0 0;font-size:1.55rem}
+.ubs-fact{border-top:1px solid var(--line);padding:18px 0;display:flex;align-items:flex-start;gap:16px}
+.ubs-fact:last-child{padding-bottom:0}
+.ubs-fact>span{font-size:1.35rem;line-height:1.4}
+.ubs-fact strong{display:block;color:#28513d;font-size:.9rem}
+.ubs-fact p{margin:3px 0 0;font-size:1rem;line-height:1.55}
+.ubs-fact a{color:#245e42;font-weight:800;text-underline-offset:3px}
+.ubs-vaccine-card{background:linear-gradient(145deg,#e8f1e6,#f5f8ee);display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:13px;border-color:#c8dfcb}
+.ubs-vaccine-icon{display:grid;place-items:center;width:60px;height:60px;background:#d3e7d4;border-radius:18px;font-size:1.9rem}
+.ubs-vaccine-card h3{font-size:1.65rem;margin:0}
+.ubs-vaccine-card p{font-size:1rem;line-height:1.6;margin:0}
+.ubs-inline-link{font-weight:800;color:#205a40;margin-top:8px;text-decoration:none;border-bottom:2px solid #9cc7a3;padding-bottom:3px}
+.ubs-inline-link:hover{text-decoration:underline}
+.ubs-groups-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}
+.ubs-group-card{background:#fff;border:1px solid #dbe5da;border-radius:25px;overflow:hidden;box-shadow:0 8px 22px rgba(27,53,40,.04);display:flex;flex-direction:column}
+.ubs-group-image{width:100%;height:230px;object-fit:cover;display:block}
+.ubs-group-content{padding:26px 27px 30px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
+.ubs-group-tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:15px}
+.ubs-group-tag{border-radius:999px;background:#e1eee1;color:#23593e;padding:6px 12px;font-size:.74rem;font-weight:800}
+.ubs-group-tag-muted{background:#f2efe7;color:#705c3c}
+.ubs-group-content h3{font-size:1.53rem;margin:0 0 10px}
+.ubs-group-content p{line-height:1.63;color:#50685a;font-size:.93rem;margin:0 0 16px}
+.ubs-group-content h4{font-size:1.08rem;color:#254e3a;margin:7px 0 10px}
+.ubs-schedule{background:#f2f6ef;border-radius:17px;padding:19px 20px;width:100%;margin:6px 0 21px}
+.ubs-schedule>strong{font-size:.88rem;color:#2d5940;display:block;margin-bottom:13px}
+.ubs-time-list{display:flex;flex-wrap:wrap;gap:9px}
+.ubs-time-list span{padding:9px 13px;border-radius:10px;background:#fff;border:1px solid #d6e5d6;color:#245c40;font-weight:850;font-size:.94rem}
+.ubs-steps{padding-left:22px;margin:0 0 15px;line-height:1.7;font-size:.93rem;color:#4b6154}
+.ubs-steps li{padding-left:3px;margin-bottom:8px}
+.ubs-group-content p.ubs-group-note{margin:auto 0 0;background:#f9f5eb;padding:15px;border-radius:12px;border-left:3px solid #bfaa7a;color:#67583c;font-size:.86rem;width:100%}
+.ubs-place-time{display:flex;justify-content:space-between;gap:12px;align-items:center;border-top:1px solid #dfe8dd;padding:12px 0;font-size:.94rem;color:#2c563f}
+.ubs-place-time:first-of-type{border-top:0;padding-top:0}
+.ubs-place-time span{line-height:1.35}
+.ubs-place-time small{display:block;margin-left:24px;color:#657b6b;font-size:.74rem}
+.ubs-place-time b{white-space:nowrap;color:#174b32}
+.ubs-illustration-caption{color:#6a796c;font-size:.79rem;margin:18px 0 0}
+.ubs-confirmation{margin-top:28px;padding:28px;border-radius:22px;background:#e4f0e6;border:1px solid #c6dec9;display:flex;align-items:flex-start;gap:16px}
+.ubs-confirmation>span{font-size:2.2rem;line-height:1.1}
+.ubs-confirmation h3{margin:0 0 9px;font-size:1.33rem}
+.ubs-confirmation p{line-height:1.65;margin:0 0 12px;color:#385c43}
+.ubs-confirmation a{color:#1e553b;font-weight:800;text-underline-offset:3px}
+.ubs-activity-invite{display:flex;align-items:center;gap:19px;margin:34px 0 23px;background:#ecf4e9;border:1px solid #cee2cb;padding:29px;border-radius:24px}
+.ubs-activity-invite-icon{display:grid;place-items:center;flex:none;background:#d5e8d3;border-radius:16px;width:66px;height:66px;font-size:2rem}
+.ubs-activity-invite .eyebrow{font-size:.72rem;margin-bottom:7px;display:block}
+.ubs-activity-invite h2{font-size:1.43rem;margin:0 0 7px}
+.ubs-activity-invite p{font-size:.90rem;line-height:1.55;color:#4e6956;margin:0}
+.ubs-activity-invite .btn{margin-left:auto;white-space:nowrap;flex:none;font-size:.81rem}
+#grupos-ubs{scroll-margin-top:147px}
+.ubs-closing-row{display:flex;align-items:center;justify-content:space-between;gap:28px}
+.ubs-closing-row>div{max-width:740px}
+.ubs-closing-row h2{font-size:clamp(1.55rem,2.2vw,2.2rem);margin-bottom:14px}
+.ubs-closing-row p{line-height:1.6}
+.ubs-closing-row .btn{white-space:nowrap}
+@media(max-width:1000px){.ubs-activity-invite{flex-wrap:wrap}.ubs-activity-invite .btn{margin-left:85px}}
+@media(max-width:800px){
+ .ubs-info-grid,.ubs-groups-grid{grid-template-columns:1fr}
+ .ubs-group-image{height:260px}
+ .ubs-group-content{padding:25px}
+ .ubs-activity-invite .btn{margin-left:0}
+}
+@media(max-width:520px){
+ .ubs-info-card,.ubs-vaccine-card{padding:22px;border-radius:18px}
+ .ubs-info-heading h3{font-size:1.37rem}
+ .ubs-vaccine-card h3{font-size:1.42rem}
+ .ubs-group-image{height:184px}
+ .ubs-group-content{padding:20px 19px 24px}
+ .ubs-group-content h3{font-size:1.32rem}
+ .ubs-schedule{padding:16px}
+ .ubs-place-time{flex-direction:column;align-items:flex-start;gap:6px}
+ .ubs-confirmation{padding:20px;gap:11px}
+ .ubs-confirmation>span{font-size:1.5rem}
+ .ubs-activity-invite{padding:21px;gap:13px}
+ .ubs-activity-invite-icon{width:52px;height:52px;font-size:1.5rem}
+ .ubs-activity-invite>div{flex:1;min-width:195px}
+ .ubs-activity-invite .btn{width:100%;white-space:normal}
+ .ubs-closing-row{align-items:stretch;flex-direction:column}
+}
+@media print{.ubs-group-card,.ubs-info-card,.ubs-vaccine-card{break-inside:avoid}.ubs-activity-invite{break-inside:avoid}}

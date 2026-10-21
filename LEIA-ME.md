@@ -1,6 +1,6 @@
-# Envelhecer com Saúde — versão em página única
+# Envelhecer com Saúde — cartilha em página única | UBS Vila Elvira
 
-Cartilha digital estática e sequencial para ações de educação em saúde na sala de espera da UBS. Pensada para tablets durante a apresentação e para celulares após o acesso por QR Code.
+Cartilha digital estática e sequencial para ações de educação em saúde na sala de espera da **UBS Vila Elvira**. Pensada para tablets durante a apresentação e para celulares após o acesso por QR Code.
 
 ## Como abrir
 
@@ -8,11 +8,19 @@ Cartilha digital estática e sequencial para ações de educação em saúde na 
 2. Abra `index.html` em um navegador. As imagens e interações básicas funcionam sem internet se os arquivos estiverem no dispositivo.
 3. Para uso público por QR Code, publique **toda a pasta** em uma hospedagem de sites estáticos (por exemplo, GitHub Pages ou Netlify). O QR Code só poderá ser criado depois de obter o endereço definitivo.
 
+## Dados da UBS Vila Elvira (informados ao projeto em 20/10/2026)
+
+- Endereço: Avenida Major Leo Lerro, 558 — Vila Elvira. Telefone: (17) 3224-3695.
+- Unidade: segunda a sexta, 7h–17h; sala de vacinação: segunda a sexta, 7h30–16h30.
+- Grupo com fisioterapeuta: terças, 7h30, 8h30, 9h15 ou 10h; exige consulta e encaminhamento médico e triagem com a fisioterapeuta (terças, a partir das 11h).
+- Grupo com educadora física: quintas, na praça às 7h30 ou 8h15, ou na UBS às 9h30; aberto, sem triagem prévia. O endereço da praça não foi fornecido.
+- **Antes de participar de qualquer grupo, sinalizar interesse e confirmar com a UBS horários, locais e disponibilidade.**
+
 ## Apresentação nos tablets
 
 - Abra a página e toque em **Modo apresentação**, no canto superior: fontes maiores e controles fixos na parte inferior.
 - Use **Próxima** e **Anterior** para alternar entre os grandes temas; o conteúdo de cada tema permanece em rolagem vertical.
-- O menu horizontal superior dá acesso direto a qualquer tema, inclusive à sarcopenia por meio da área de atividade física.
+- O menu horizontal superior dá acesso direto a qualquer tema. Na seção de atividade física existe um atalho **Conheça os grupos da UBS**, que leva à programação detalhada sem sair da página.
 - O botão **A+** amplia a tipografia. Os valores nutricionais ficam escondidos até selecionar *Ver informações nutricionais*.
 - No teclado, durante o modo apresentação, `PageDown`/`→` avançam e `PageUp`/`←` retornam; `Esc` sai do modo.
 - Os filtros de refeições e o checklist de prevenção de quedas continuam interativos.
@@ -31,16 +39,17 @@ Cartilha digital estática e sequencial para ações de educação em saúde na 
 - `assets/js/site.js`: filtros, tamanho do texto e checklist.
 - `assets/js/pagina-unica.js`: navegação entre temas, modo apresentação e cache.
 - `assets/img/`: ilustrações e fotografias geradas para a cartilha.
-- `dados/`: fichas nutricionais e lista provisória de serviços (arquivos de trabalho, não carregados automaticamente).
+- `dados/`: fichas nutricionais e arquivo `ubs_vila_elvira.json` com dados recebidos da UBS (arquivos de apoio, não carregados automaticamente).
 - `sw.js` e `manifest.webmanifest`: suporte básico a carregamento offline após visita inicial e instalação opcional.
 
 ## Pendências para publicação institucional
 
-1. Preencher nome da faculdade, UBS, endereço, contatos e **lista oficialmente confirmada** de serviços da unidade. Não divulgar serviços provisórios como se estivessem disponíveis.
-2. Validar as estimativas nutricionais das dez fichas com um profissional habilitado (quantidades, preparações, fontes e revisão dos valores).
-3. Revisar clinicamente o texto e as imagens, incluindo sarcopenia e orientações sobre exercícios e segurança.
-4. Conferir o calendário oficial de vacinação mais recente na data de publicação e atualizar referências se necessário.
-5. Testar legibilidade, navegação, responsividade e uso offline **nos tablets concretos** utilizados no projeto, inclusive orientação de tela vertical e horizontal.
-6. Após publicação, gerar o QR Code para o endereço definitivo e testá-lo com celulares.
+1. Preencher o nome da faculdade e, se desejado, sua identificação institucional no rodapé. A página da UBS agora informa **apenas a sala de vacinação e os grupos cujos dados foram fornecidos**, sem presumir outros serviços.
+2. Confirmar com a UBS o **endereço da praça** e conferir os horários dos grupos na data de apresentação, pois podem variar.
+3. Validar as estimativas nutricionais das dez fichas com um profissional habilitado (quantidades, preparações, fontes e revisão dos valores).
+4. Revisar clinicamente o texto e as imagens, incluindo sarcopenia e orientações sobre exercícios e segurança.
+5. Conferir o calendário oficial de vacinação mais recente na data de publicação e atualizar referências se necessário.
+6. Testar legibilidade, navegação, responsividade e uso offline **nos tablets concretos** utilizados no projeto, inclusive orientação de tela vertical e horizontal.
+7. Após publicação, gerar o QR Code para o endereço definitivo e testá-lo com celulares.
 
 **Importante:** Conteúdo educativo geral; não é uma prescrição clínica ou alimentar individual. Nenhum formulário solicita ou envia dados pessoais.
